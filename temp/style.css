@@ -1,0 +1,57 @@
+.body{
+    background-position: center;
+    background-image: url("image\OIP.jpeg");
+
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 130%;
+    justify-content: flex-start;
+    align-content: flex-start;
+    background-size:cover;
+    background-color: rgba(126, 255, 201, 0.612);
+}
+.header{
+    border-style: dotted;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.left{
+    border-style: dotted;
+    flex-grow: 2;
+    height: 65%;
+}
+.middle{
+    border-style: dotted;
+    display: flex;
+    flex-grow: 6;
+    height: 65%;
+    flex-direction: row;   
+}
+.middle>div{
+    border-style: solid;
+    margin: auto;
+}
+.right{
+    border-style: dotted;
+    flex-grow: 2;
+    height: 65%;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    font: 20px bold;
+    border-style: dotted;
+    width: 100%;
+    height: 18%;
+    flex-direction:row;
+}
+.footer>div{
+    margin-left: 20px ;
+    font-size: small;
+    border-style: solid;
+}

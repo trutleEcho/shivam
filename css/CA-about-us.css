@@ -1,0 +1,24 @@
+.nav-flex-row{
+    background-color: #00C54C;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row ;
+    z-index: 100; 
+    width: 100%;
+    padding: 0;
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, cursive;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+}

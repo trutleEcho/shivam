@@ -1,0 +1,121 @@
+.nav-flex-row{
+    background-color: #00C54C;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row ;
+    z-index: 100; 
+    width: 100%;
+    padding: 0;
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, cursive;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.nav-flex-row a:hover{
+    color: red;
+}
+.main{
+    border: solid;
+
+    border: 20px solid rgb(255, 255, 255);
+    height: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main h3 {
+    text-align: center;
+    color: #ffffff;
+    font-size:large;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.main header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.shops {
+    border: solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    border: 10px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 90%;
+}
+.shivam {
+    flex: 1;
+    border: solid;
+
+}
+.corner {
+    flex: 1;
+    border: solid;
+
+}
+
+
+
+
+
+@media (min-width:577px) and (max-width: 800px) {
+
+    .main {
+        height: 500px;
+    
+    }
+    .nav-flex-row li a{
+        font-size:22px;
+    }
+    .nav-flex-row li {
+        text-decoration: none;
+        list-style-type: none;
+        padding: 10px 10px;
+    }
+    .shivam a{
+        height: 100px;
+        width: 110px;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .main {
+        height: 500px;
+    }
+
+    .main h3 {
+        font-size:medium;
+    }
+    .nav-flex-row li a{
+        font-size: 20px;
+    }
+    .nav-flex-row li {
+        text-decoration: none;
+        list-style-type: none;
+        padding: 8px 8px;
+    }
+ 
+}
